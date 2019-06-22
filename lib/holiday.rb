@@ -64,6 +64,8 @@ holiday_hash.each do |ele,event|
   puts "#{ele.capitalize}"
   event.each do |holiday, item|
     puts "#{holiday.to_s.split( "_").map{|i| i.capitalize}}"
+   end 
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
